@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Sharing Display Flex Class */
+.display-flex{
+    display: flex;
+}
+
+/* Sharing Color*/
+.orange{
+    color: rgb(254, 163, 1);
+}
+.sky-blue{
+    color: rgb(1, 172, 253);
+}
+.aqua{
+    color: rgb(5, 212, 223);
+}
+.purple{
+    color: rgb(93, 88, 239);
+}
+/* The Header Section Start Here*/
+.head-section{
+    width: 100%;
+    height: 6.375rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-container{
+    width: 1160px;
+    height: 62px;
+    justify-content: space-between; 
+    align-items: center;  
+}
+
+.nav-school-name{
+    justify-content: center;
+    align-items: center;
+}
+
+.school-name{
+    margin-left: 0.6875rem;
+    color: rgb(17, 17, 17);
+    font-family: Quicksand;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.nav-item{
+    list-style: none;
+    margin-right: 2rem;
+}
+
+.nav-link{
+    font-family: Quicksand;
+    font-size: 1.25rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.primary-btn{
+    width: 12.3125rem;
+    height: 3.125rem;
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 12px;
+    background: rgb(254, 163, 1);
+}
+/* The Header Section End Here*/
+
+/* Responsive For Mobile */
+@media screen and (max-width: 576px) {
+    .nav-container{
+        flex-direction: column;
+    }
+
+    .nav-link, .school-name, .primary-btn{
+       display: none;
+    }
+
+    .nav-img{
+        margin-left: 0;
+    }
+
+    .nav-school-name{
+        position: absolute;
+        justify-content: flex-start;
+    }
+}
