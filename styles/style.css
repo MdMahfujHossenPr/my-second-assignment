@@ -3,6 +3,9 @@
     padding: 0;
 }
 
+body{
+    margin: 0 auto;
+}
 /* ------------------------------------------------------------------------------------*/
 /* Sharing Display Flex Class */
 .display-flex{
@@ -31,7 +34,7 @@
     align-items: center;
 }
 
-/* Nav Container Start Here   */
+/* Nav Container Start Here  */
 .nav-container{
     width: 1160px;
     height: 62px;
@@ -396,13 +399,13 @@ footer{
     height: 519px;
     justify-content: center;
     align-items: center;
-    background: rgb(14, 216, 14);
+    background: rgb(5, 248, 248);
  }
 
 /* Footer Container Start Here */
 .footer-container{
-    width: 1070.91px;
-    height: 222px;
+   width: 1070.91px;
+   height: 222px;
 }
 
 /* Footer Box One Start Here */
@@ -481,3 +484,116 @@ footer{
 /* Footer Part End Here */
 /* ------------------------------------------------------------------------------------*/
 /* Responsive Mobile layout*/
+@media screen and (min-width: 577px){
+    .nav-icon{
+       display: none;
+    }      
+}
+@media screen and (max-width: 576px) {
+/* The Header Section Responsive Start Here*/
+   .head-section{
+       justify-content: flex-start;
+   }
+/* Nav Container Responsive Start Here */
+   .nav-container{
+       flex-direction: column;
+   }
+
+   .nav-link, .school-name, .primary-btn{
+      display: none;
+   }
+
+   .nav-img{
+       margin-left: 0;
+   }
+
+   .nav-school-name{
+       justify-content: space-between;
+       width: 100%;
+   }
+
+   .nav-icon{
+       font-size: 40px;
+   }
+
+/* Section One Responsive Here */
+   .students-container{
+       flex-direction: column;
+       height: auto;
+       padding: 0 50px !important;
+   }
+   .students-self{
+       order: 2;
+       width: auto;
+   }
+/* Section Two Responsive Here */
+   .section-two{
+       width: auto;
+       height: auto;
+   }
+   .card-container{
+       width: auto;
+       height: auto;
+       grid-template-columns: repeat(1, 1fr);
+       gap: 20px;
+   }
+   .icon-container{
+       margin-top: 30px;
+       margin-bottom: 50px;
+   }
+/* Section  Three Responsive Here */
+   .section-three {
+       width: 100%;
+       height: auto;
+       padding: 0 10px;
+   }
+   .stories-container {
+       width: auto;
+       height: auto;
+       flex-direction: column;
+   }
+   .baby-container{
+       width: auto;
+       display: none;
+   }
+   .babys-container{
+       width: auto;
+       height: auto;
+       gap: 7px 7px;
+   }
+
+   .view-btn{
+       margin-bottom: 50px;
+   }
+/* Footer Section Responsive Here */
+   footer{
+       height: auto;
+   }
+   .footer-container {
+       flex-direction: column;
+       width: 100%;
+       height: auto;
+       margin-top: 50px;
+       margin-left: 35px;
+   }
+   .footer-box-one{
+       height: auto;
+   }
+   .footer-box-two {
+       flex-direction: column;
+       height: auto;
+   }
+   .footer-child{
+       height: auto;
+       width: auto;
+   }
+   .icon-header{
+       margin-left: 0px;
+       text-align: start;
+   }
+   .footer-icon{
+       margin: 0px;
+       text-align: start;
+   }
+  
+}
