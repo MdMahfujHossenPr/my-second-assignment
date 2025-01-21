@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body{
+    columns: 300px;
+}
+
 /* Sharing Display Flex Class */
 .display-flex{
     display: flex;
@@ -278,6 +282,7 @@
     border-radius: 47.93px;
     margin-top: 314.14px;
     margin-left: 38.35px;
+    background: rgb(60, 216, 232);
 }
 
 .baby-img{
@@ -386,26 +391,29 @@ footer{
     height: 519px;
     justify-content: center;
     align-items: center;
-    background-color: blue;
+    background: rgb(14, 216, 14);
  }
 
 .footer-container{
     /* flex-direction: column; */
     width: 1070.91px;
     height: 222px;
-    background-color: aqua;
 }
 
 .footer-box-one{
     width: 578.73px;
     height: 222px;
-    background-color: bisque;
+}
+
+.logo-png{
+    color: rgb(255, 255, 255);;
 }
 
 .footer-head{
     width: 206.11px;
     height: 80px;
     margin-left: 10.7px;
+    color: rgb(255, 255, 255);
 }
 
 .pizza{
@@ -422,13 +430,11 @@ footer{
 .footer-box-two{
     width: 492.18px;
     height: 222px;
-    background-color: blueviolet;
 }
 
 .footer-child{
     width: 246.09px;
     height: 222px;
-    background-color: chocolate;
 }
 
 .about-school{
@@ -451,7 +457,7 @@ footer{
 }
 
 .icon-header{
-    color: rgb(255, 255, 255);
+    color: white;
     font-family: Quicksand;
     font-size: 26px;
     font-weight: 700;
