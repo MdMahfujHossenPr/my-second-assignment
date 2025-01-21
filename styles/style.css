@@ -3,9 +3,7 @@
     padding: 0;
 }
 
-body{
-    margin: 0 auto;
-}
+ 
 /* ------------------------------------------------------------------------------------*/
 /* Sharing Display Flex Class */
 .display-flex{
@@ -490,11 +488,6 @@ footer{
     }      
 }
 @media screen and (max-width: 576px) {
-/* The Header Section Responsive Start Here*/
-   .head-section{
-       justify-content: flex-start;
-   }
-/* Nav Container Responsive Start Here */
    .nav-container{
        flex-direction: column;
    }
@@ -515,8 +508,10 @@ footer{
    .nav-icon{
        font-size: 40px;
    }
-
-/* Section One Responsive Here */
+   .head-section{
+       justify-content: flex-start;
+   }
+   /* Section One Responsive Here*/
    .students-container{
        flex-direction: column;
        height: auto;
@@ -526,7 +521,7 @@ footer{
        order: 2;
        width: auto;
    }
-/* Section Two Responsive Here */
+   /* Section  Two Responsive Here */
    .section-two{
        width: auto;
        height: auto;
@@ -541,7 +536,7 @@ footer{
        margin-top: 30px;
        margin-bottom: 50px;
    }
-/* Section  Three Responsive Here */
+   /* Section  Three Responsive Here*/
    .section-three {
        width: 100%;
        height: auto;
@@ -565,7 +560,7 @@ footer{
    .view-btn{
        margin-bottom: 50px;
    }
-/* Footer Section Responsive Here */
+   /* Footer  Section Responsive Here */
    footer{
        height: auto;
    }
