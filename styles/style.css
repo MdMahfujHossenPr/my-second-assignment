@@ -380,6 +380,92 @@
 }
 /* Section Three End Here */
 
+/* Footer Start Here */
+footer{
+    width: 100%;
+    height: 519px;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+ }
+
+.footer-container{
+    /* flex-direction: column; */
+    width: 1070.91px;
+    height: 222px;
+    background-color: aqua;
+}
+
+.footer-box-one{
+    width: 578.73px;
+    height: 222px;
+    background-color: bisque;
+}
+
+.footer-head{
+    width: 206.11px;
+    height: 80px;
+    margin-left: 10.7px;
+}
+
+.pizza{
+    width: 399.02px;
+    height: 100px;
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-top: 35.68px;
+}
+
+.footer-box-two{
+    width: 492.18px;
+    height: 222px;
+    background-color: blueviolet;
+}
+
+.footer-child{
+    width: 246.09px;
+    height: 222px;
+    background-color: chocolate;
+}
+
+.about-school{
+    width: 156.36px;
+    height: 30px;
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.footer-links li{
+    list-style: none;
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    margin-top: 24px;
+}
+
+.icon-header{
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 26px;
+    font-weight: 700;
+    margin-left: 15.54px;
+    margin-right: 12.15px;
+    text-align: right;
+}
+
+.footer-icon{
+    margin: 32px 10.18px 0px 18.15px;
+    text-align: right;
+}
+/* Footer Start Here */
+
 /* Responsive For Mobile */
 @media screen and (min-width: 577px){
      .nav-icon{
