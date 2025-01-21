@@ -162,7 +162,6 @@
     justify-content: flex-start;
     width: 367.8px;
     height: 476.78px;
-    background-color: pink;
     text-align: center;
 }
 
@@ -402,7 +401,6 @@ footer{
 
 /* Footer Container Start Here */
 .footer-container{
-    /* flex-direction: column; */
     width: 1070.91px;
     height: 222px;
 }
@@ -482,4 +480,4 @@ footer{
 }
 /* Footer Part End Here */
 /* ------------------------------------------------------------------------------------*/
- 
+/* Responsive Mobile layout*/
