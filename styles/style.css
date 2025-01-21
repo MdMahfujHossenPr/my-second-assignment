@@ -3,10 +3,7 @@
     padding: 0;
 }
 
-body{
-    columns: 300px;
-}
-
+/* ------------------------------------------------------------------------------------*/
 /* Sharing Display Flex Class */
 .display-flex{
     display: flex;
@@ -25,7 +22,8 @@ body{
 .purple{
     color: rgb(93, 88, 239);
 }
-/* The Header Section Start Here*/
+/* ------------------------------------------------------------------------------------*/
+/* The Header Section Part Start Here*/
 .head-section{
     width: 100%;
     height: 6.375rem;
@@ -33,6 +31,7 @@ body{
     align-items: center;
 }
 
+/* Nav Container Start Here   */
 .nav-container{
     width: 1160px;
     height: 62px;
@@ -40,6 +39,7 @@ body{
     align-items: center;  
 }
 
+/* Nav School Name Here */
 .nav-school-name{
     justify-content: center;
     align-items: center;
@@ -53,6 +53,7 @@ body{
     font-weight: 700;
 }
 
+/* Nav Links Here*/
 .nav-item{
     list-style: none;
     margin-right: 2rem;
@@ -65,6 +66,7 @@ body{
     text-decoration: none;
 }
 
+/* Primary Button Here*/
 .primary-btn{
     width: 12.3125rem;
     height: 3.125rem;
@@ -76,9 +78,9 @@ body{
     border-radius: 12px;
     background: rgb(254, 163, 1);
 }
-/* The Header Section End Here*/
-
-/* Section One Start Here */
+/* The Header Section Part End Here*/
+/* ------------------------------------------------------------------------------------*/
+/* Section One Part Is Start Here */
 .section-one{
     justify-content: center;
 }
@@ -90,11 +92,6 @@ body{
 
 .students-self{
     width: 40rem;
-    height: 35.9375rem;
-}
-
-.boy-container{
-    width: 29.288125rem;
     height: 35.9375rem;
 }
 
@@ -117,9 +114,14 @@ body{
     background: rgb(17, 17, 17);
     margin-top: 1.5rem;
 }
-/* Section One End Here */
-
-/* Section Two Start Here */
+/* The Hero-Kids.Png Start Here */
+.boy-container{
+    width: 29.288125rem;
+    height: 35.9375rem;
+}
+/* Section One Part Is End Here */
+/* ------------------------------------------------------------------------------------*/
+/* Section Two Part Start Here */
 .section-two{
     width: 1440px;
     height: 879px;
@@ -153,6 +155,7 @@ body{
     margin-top: 80px;
 }
 
+/* Card Box One Start Here */
 .card-box{
     display: flex;
     flex-direction: column;
@@ -226,6 +229,7 @@ body{
     background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
 }
 
+/* Less-Greater-Than Symbol Here */
 .icon-container{
     width: 130px;
     height: 60px;
@@ -246,9 +250,9 @@ body{
     font-size: 24px;
     font-weight: 900;
 }
-/* Section Two Start Here */
-
-/* Section Three Start Here */
+/* Section Two Part End Here */
+/* ------------------------------------------------------------------------------------*/
+/* Section Three Part Start Here */
 .section-three{
     width: 100%;
     height: 1018.02px;
@@ -266,6 +270,7 @@ body{
     margin-top: 80px;
 }
 
+/* The Baby Part Start Here */
 .baby-container{
     position: relative;
     width: 540.27px;
@@ -314,6 +319,7 @@ body{
     margin-left: 38.35px;
 }
 
+/* The Baby's Part Start Here */
 .babys-container{
     position: relative;
     width: 601px;
@@ -383,9 +389,9 @@ body{
     border-radius: 12px;
     background: rgb(17, 17, 17);
 }
-/* Section Three End Here */
-
-/* Footer Start Here */
+/* Section Three Part End Here */
+/* ------------------------------------------------------------------------------------*/
+/* Footer Part Start Here */
 footer{
     width: 100%;
     height: 519px;
@@ -394,12 +400,14 @@ footer{
     background: rgb(14, 216, 14);
  }
 
+/* Footer Container Start Here */
 .footer-container{
     /* flex-direction: column; */
     width: 1070.91px;
     height: 222px;
 }
 
+/* Footer Box One Start Here */
 .footer-box-one{
     width: 578.73px;
     height: 222px;
@@ -427,11 +435,13 @@ footer{
     margin-top: 35.68px;
 }
 
+/* Footer Box Two Start Here */
 .footer-box-two{
     width: 492.18px;
     height: 222px;
 }
 
+/* Footer Child Start Here */
 .footer-child{
     width: 246.09px;
     height: 222px;
@@ -470,33 +480,6 @@ footer{
     margin: 32px 10.18px 0px 18.15px;
     text-align: right;
 }
-/* Footer Start Here */
-
-/* Responsive For Mobile */
-@media screen and (min-width: 577px){
-     .nav-icon{
-        display: none;
-     }      
-}
-@media screen and (max-width: 576px) {
-    .nav-container{
-        flex-direction: column;
-    }
-
-    .nav-link, .school-name, .primary-btn{
-       display: none;
-    }
-
-    .nav-img{
-        margin-left: 0;
-    }
-
-    .head-section{
-        justify-content: flex-start;
-    }
-    /* Section one responsive here */
-    .students-container{
-        flex-direction: column;  
-    }
-   
-}
+/* Footer Part End Here */
+/* ------------------------------------------------------------------------------------*/
+ 
